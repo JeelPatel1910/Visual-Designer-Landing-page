@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+body{
+    background-color: #111111;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    margin: 0% 6%;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    color: white;
+    justify-content: space-between;
+    margin-top: 2%;
+}
+.logo{
+    flex: 1;
+}
+a{
+    text-decoration: none;
+}
+.nav-list{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    font-weight: 500;
+    font-size: 1.2rem;
+    flex: 2;
+    align-items: center;
+    justify-content: flex-end;
+}
+.list-item{
+    margin-right: 5%;
+}
+.hero, .project_header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.right{
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.right h3{
+    color: #e44d3c;
+    font-size: 1.7rem;
+}
+.hero h1{
+    font-size: 5.5rem;
+    font-weight: 600;
+    line-height: 5rem;
+    margin: 1% 0;
+}
+.hero p{
+    margin: 2% 0 2% 0;
+   
+}
+.left{
+    width: 45%;
+}
+.left img{
+    width: 118%;
+}
+button{
+    text-decoration: none;
+    background: #e44d3c;
+    width: fit-content;
+    padding: 15px 40px;
+    color: #fff;
+    font-weight: 700;
+    border: none;
+    font-size: 1.2rem;
+}
+.value-section{
+    background: rgb(24,24,24);
+    background: linear-gradient(90deg, rgba(24,24,24,1) 50%, rgba(0,0,0,1) 50%);
+    padding: 5% 12%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.cards, .project-cards{
+    display: flex;
+    flex-direction: row;
+    gap: 4%;
+    flex-wrap: wrap;
+}
+.card, .number-cards{
+    width: 30%;
+}
+.card{
+    margin-bottom: 8%;
+}
+.card_back{
+    background-color: #1e1e1e;
+    padding: 10%;    
+}
+.card a, .project-card a{
+    color: #e44d3c;
+}
+.card h2{
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+.card i{
+    margin-left: 4%;
+}
+.red{
+    background-color: #e44d3c;
+}
+.card p, .card a{
+    font-size: 1.3rem;
+}
+.red a{
+    color: white;
+}
+.number{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.number-card h1{
+    color: #e44d3c;
+    font-weight: 700;
+    font-size: 3rem;
+    margin: 1% 0%;
+}
+.number-card{
+    width: 80%;
+    background-color: #1e1e1e;
+    margin-bottom: 5%;
+    padding: 1% 10%;
+}
+.years{
+    padding: 10%;
+}
+.years h1{
+    color: #e44d3c;
+    font-weight: 700;
+    font-size: 6rem;
+    margin: 1% 0%;
+    line-height: 6rem;
+}
+.project-container{
+    padding: 5% 12%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.project_header{
+    width: 100%;
+    align-items: center;
+}
+.project-card{
+    width: 48%;
+}
+.image img{
+    width: 80%;
+}
+.image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3%;
+    background-color: #1e1e1e;
+}
+.project-card h2{
+    margin-bottom: 0%;
+}
+.project-card{
+    margin-bottom: 3%;
+}
+.project-cta{
+    width: 100%;
+    background-color: #1e1e1e;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3%;
+}
+.nav-2{
+    margin-top: 8%;
+}
+.social{
+    background-color: #1e1e1e;
+    display: flex;
+    flex-direction: row;
+    color: white;
+    justify-content: space-between;
+    padding: 1% 10%;
+}
+
+@media screen and (max-width: 1540px) and (min-width: 1130px){
+    .hero h1{
+        font-size: 4rem;
+        line-height: 4rem;
+    }
+
+}
+
+@media screen and (max-width: 1130px) and (min-width: 900px){
+    .hero h1{
+        font-size: 3.2rem;
+        line-height: 4rem;
+    }
+    .hero p{
+        font-size: 0.8rem;
+        line-height: 1rem;
+    }
+    .right h3{
+        margin: 1% 0;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .hero h1{
+        font-size: 2.4rem;
+        line-height: 3rem;
+    }
+    .hero p{
+        font-size: 0.8rem;
+        line-height: 1rem;
+    }
+    .right h3 {
+        font-size: 1.3rem;
+        margin: 1% 0;
+    }
+    .nav-list{
+        font-size: 1rem;
+    }
+}
