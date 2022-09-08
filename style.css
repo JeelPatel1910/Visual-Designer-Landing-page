@@ -220,7 +220,7 @@ button{
     }
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 900px) and (min-width: 680px) {
     .hero h1{
         font-size: 2.4rem;
         line-height: 3rem;
@@ -229,11 +229,70 @@ button{
         font-size: 0.8rem;
         line-height: 1rem;
     }
+    .card h2 {
+        font-size: 1.5rem;
+    }
+    .card p , .card a{
+        font-size: 1rem;
+    }
     .right h3 {
         font-size: 1.3rem;
         margin: 1% 0;
     }
     .nav-list{
         font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 680px) and (min-width: 320px) {
+    .hero h1{
+        font-size: 2.4rem;
+        line-height: 3rem;
+    }
+    .hero p{
+        font-size: 0.8rem;
+        line-height: 1rem;
+    }
+    .nav-list {
+        display: none;
+    }
+    .left{
+        display: none;
+    }
+    .right{
+        width: 100%;
+        text-align: center;
+    }
+    button {
+        font-size: 1rem;
+        padding: 12px 30px;
+        align-self: center;
+    }
+    .cards , .project-cards{
+        flex-wrap: wrap;
+    }
+    .card , .project-card{
+        width: 100%;
+    }
+    .card h2 {
+        font-size: 1.5rem;
+    }
+    .card p , .card a{
+        font-size: 1rem;
+    }
+    .right h3 {
+        font-size: 1.3rem;
+        margin: 1% 0;
+    }
+    .project_header , .project-cta{
+        flex-direction: column;
+        text-align: center;
+        margin-bottom: 5%;
+    }
+    .logo{
+        display: flex;
+    }
+    .logo img{
+        align-self: center;
     }
 }
